@@ -1,0 +1,209 @@
+.App {
+  text-align: center;
+  background-image: url("https://images8.alphacoders.com/445/445160.jpg");
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.the-rating {
+  color: white;
+  font-family:'Bowlby One SC', cursive;
+  margin-bottom: 0px;
+
+}
+
+.titleApp {
+  color: white;
+  font-family: 'Yeon Sung', cursive;
+  font-size: 50px
+
+}
+
+.description-div1 {
+  background-image: url("https://images8.alphacoders.com/445/445160.jpg");
+  color: white;
+  padding: 30px;
+}
+
+.search-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* align-items: baseline; */
+}
+
+.search_text1 {
+margin-bottom: 5px;
+color: white;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 18px;
+line-height: 19px;
+/* align-self: auto;*/
+}
+
+.App-header {
+  /* background-color: #282c34; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.stars-div {
+  color: white;
+}
+
+.Header {
+  /* border: solid 1px black; */
+  padding-top: 15px;
+}
+ .card-container {
+  color: white;
+  /* background-color: transparent; */
+  border: double;
+  box-sizing: border-box;
+  width: 274px;
+  height: auto;
+  margin: 10px;
+  margin-bottom: 40px;
+  margin-left: 20px;
+  border-radius: 6px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color:#644820;
+  justify-content: center;
+}
+
+.movie-image {
+  width: 267px;
+  border-radius: 6px;
+  height: 350px;
+}
+
+.card p {
+  font-weight: bold;
+  margin-top: 6px;
+  line-height: 8px;
+  font-size: 18px;
+  font-family: 'Permanent Marker', cursive;
+  display: flex;
+  flex-direction: column;
+}
+
+.Movielist-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.button-class {
+  display: flex;
+  height: 100px;
+  justify-content: flex-end;
+}
+
+.modal-body {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+
+.modal-body input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.search-icon {
+  height: 30px;
+  width: auto;
+  margin-left: 7px;
+  margin-top: 5px;
+  color: white;
+  /* margin-bottom: 5px; */
+}
+
+.span1 {
+  /* cursor: pointer; */
+}
+
+.span2 {
+  cursor: pointer;
+}
+
+.spinner-border .text-primary {
+  margin: 30px;
+  padding: 20px;
+}
+
+.buttons-div {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  justify-content: space-between;
+  width: 100%;
+  /* height: 40px; */
+}
+
+.btn .btn-success {
+  height: 40px;
+}
+
+.routed-element {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: auto;
+  align-items: center;
+}
+
+.movie-description-img {
+  height: 400px;
+  width: 280px;
+  display: flex;
+  place-items: center;
+  border-radius: 8px;
+  margin: 20px;
+}
+
+.h2 {
+  font-family: Impact, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.date-h2 {
+  font-size: 24px;
+  font-family: Impact, 'Arial Narrow Bold', sans-serif;
+}
+
+.h3 {
+font-size: 30px;
+font-family: Impact;
+}
+
+.description-span {
+  /* position: absolute; */
+  display: flex;
+justify-content: center;  
+}
+
+.spinner-position {
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 13em;
+  margin-bottom: auto;
+}
